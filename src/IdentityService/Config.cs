@@ -20,7 +20,6 @@ public static class Config
     public static IEnumerable<Client> Clients =>
         new Client[]
         {
-            // m2m client credentials flow client
             new Client
             {
                 ClientId = "postman",
@@ -31,6 +30,20 @@ public static class Config
 
                 AllowedScopes = { "openid", "profile", "auctionApp" },
                 RedirectUris = {"htttps://wwww.getpostman.com/oath2/callback"}
+            },
+            new Client
+            {
+                ClientId = "nextApp",
+                ClientName = "nextApp",
+
+                AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+                RequirePkce = false,
+                ClientSecrets = { new Secret("secret".Sha256()) },
+
+                AllowedScopes = { "openid", "profile", "auctionApp" },
+                RedirectUris = {"http://localhost:300/api/auth/callback/id-server"},
+                AllowOfflineAccess = true,
+                AccessTokenLifetime = 3600*24*30
             }
 
           
