@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService.IntegrationT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiddingService", "src\BiddingService\BiddingService.csproj", "{2583269E-0212-4F22-862D-A89B103497B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "src\NotificationService\NotificationService.csproj", "{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{2583269E-0212-4F22-862D-A89B103497B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2583269E-0212-4F22-862D-A89B103497B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2583269E-0212-4F22-862D-A89B103497B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +80,6 @@ Global
 		{D674797B-79FC-4FE1-98FB-E3A779029047} = {2C0EF2DF-D8D0-429B-A7A6-EF33386CBF31}
 		{E0911FA7-33D2-4B3D-8C5C-072A593949C3} = {2C0EF2DF-D8D0-429B-A7A6-EF33386CBF31}
 		{2583269E-0212-4F22-862D-A89B103497B2} = {20E892B4-42D7-4DDC-8A2D-A680CDE6D850}
+		{F25F1458-5BFC-4DCC-BC0A-6EACCBB72C49} = {20E892B4-42D7-4DDC-8A2D-A680CDE6D850}
 	EndGlobalSection
 EndGlobal
